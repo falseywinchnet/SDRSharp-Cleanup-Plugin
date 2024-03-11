@@ -3,7 +3,10 @@
 
 A nice SDR# plugin for Short Wave listening enthusiasts, and...more!
 
-repo template shamelessly stolen from BlackApple62
+#### NOTE
+I forgot to make this abundantly clear.
+DO NOT USE NINR if you value the squelch. Only use a hanning window if you value the squelch.
+The squelch does not at this time work in AM mode, only SSB modes.
 
 # Version: 1.0 - 11 Jan 2024 
 
