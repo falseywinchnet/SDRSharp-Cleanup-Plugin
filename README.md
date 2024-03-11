@@ -26,7 +26,7 @@ This Plugin is compiled for SDR# 32bit, with .NET 8 (SDR# Studio release >= 1920
 <br>>SDRSharp will load your plugin at next execution.
 
 
-This plugin is provided for *free* to the huge SDR# Studio users community.<br>
+This plugin is provided for *free use for most cases* to the huge SDR# Studio users community.<br>
 
 For comments: https://twitter.com/HFGCSSTREAMING
 <br>Enjoy!
