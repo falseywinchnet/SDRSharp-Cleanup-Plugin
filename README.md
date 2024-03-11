@@ -11,6 +11,8 @@ The more uniform, correct, and wideband the noise you provide(by setting your fi
 the better the squelch will work. The squelch does not at this time work in AM mode, only SSB modes.
 The squelch feature also provides some reduction of cpu usage.
 
+also, we recommend a 16 bit sdr with a 16 bit output only- no forced 8bit mode 
+
 # Version: 1.0 - 11 Jan 2024 
 
 
