@@ -6,6 +6,9 @@ A nice SDR# plugin for Short Wave listening enthusiasts, and...more!
 #### NOTE
 I forgot to make this abundantly clear.
 DO NOT USE NINR if you value the squelch. Only use a hanning window if you value the squelch.
+The squelch will NOT WORK correctly when less than 1200hz of bandwidth are considered.
+The more uniform and wideband the noise you provide(by setting your filter wider)
+the better the squelch will work
 The squelch does not at this time work in AM mode, only SSB modes.
 
 # Version: 1.0 - 11 Jan 2024 
