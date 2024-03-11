@@ -20,9 +20,7 @@ This Plugin is compiled for SDR# 32bit, with .NET 8 (SDR# Studio release >= 1920
 <br>>SDRSharp will load your plugin at next execution.
 
 
-This plugin is donated for *free* to the huge SDR# Studio users community.<br>
+This plugin is provided for *free* to the huge SDR# Studio users community.<br>
 
-For comments: https://twitter.com/BlackApple62
-<br>Enjoy!
-
-![GitHubScreenshot2](https://user-images.githubusercontent.com/47506878/229347413-e8f032be-2a63-4522-913e-a32d3d3f3eeb.png)
+For comments: https://twitter.com/HFGC
+<brEnjoy!
