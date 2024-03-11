@@ -5,7 +5,7 @@ A nice SDR# plugin for Short Wave listening enthusiasts, and...more!
 
 repo template shamelessly stolen from BlackApple62
 
-# Version: 1.0 - 11 Jan 2024 - # Version: 3.3 - 07 Jan 2024 - [![Github Downloads (total)](https://img.shields.io/github/downloads/falseywinchnet/SDRSharp-Cleanup-Plugin/3.3/total.svg)](https://github.com/falseywinchnet/SDRSharp-Cleanup-Plugin/releases/download/1.0/SDRSharp.Plugin.ListenInfo.zip)
+# Version: 1.0 - 11 Jan 2024 - # Version: 3.3 - 07 Jan 2024 
 
 
 The files in this zip archive add a novel denoising method like Sdrsharp's denoiser which provides spectral gating capability and defect-free denoising on shortwave, called cleanup. Cleanup is not limited to use with SDR#. https://github.com/falseywinchnet/Cleanup for more.
@@ -25,4 +25,4 @@ This plugin is provided for *free* to the huge SDR# Studio users community.<br>
 For comments: https://twitter.com/HFGCSSTREAMING
 <br>Enjoy!
 
-![GitHubScreenshot2]([https://github.com/falseywinchnet/PyITD/blob/main/screenshot.png])
+![Screenshot](https://github.com/falseywinchnet/PyITD/blob/main/screenshot.png)
