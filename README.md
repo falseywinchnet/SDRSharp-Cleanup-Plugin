@@ -23,4 +23,4 @@ This Plugin is compiled for SDR# 32bit, with .NET 8 (SDR# Studio release >= 1920
 This plugin is provided for *free* to the huge SDR# Studio users community.<br>
 
 For comments: https://twitter.com/HFGCSSTREAMING
-<brEnjoy!
+<br>Enjoy!
