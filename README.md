@@ -27,6 +27,7 @@ Last, turn cleanup back on.
 
 
 The files in this zip archive add a novel denoising method like Sdrsharp's denoiser which provides spectral gating capability and defect-free denoising on shortwave, called cleanup. Cleanup is not limited to use with SDR#. https://github.com/falseywinchnet/Cleanup for more.
+Cleanup is also present in sdrconsole since 3.3 as NR5.
 This Plugin is compiled for SDR# 32bit, with .NET 8 (SDR# Studio release >= 1920).
 <br>Note: The plugin has not been tested and will not work on unsupported/older version of SDR# Studio and SDR#.
 
