@@ -1,19 +1,26 @@
 # SDRSharp-Cleanup-Plugin
 
 
-A nice SDR# plugin for Short Wave listening enthusiasts, and...more!
+A nice SDR# plugin for Short Wave, VHF, UHF listening enthusiasts, and...more!
 
 #### NOTE
-I forgot to make this abundantly clear.
-DO NOT USE the other denoisers if you value the squelch. Only use a hanning window if you value the squelch.
-The squelch will NOT WORK correctly when less than 1200hz of bandwidth are considered.
-The more uniform, correct, and wideband the noise you provide(by setting your filter wider,within reason, maybe 120% of the BW you want)
-the better the squelch will work. The squelch does not work when there are carrier signals present.
-The squelch feature also provides some reduction of cpu usage.
+As of 1.0.5, cleanup now performs estimation before any other denoisers, but masks after them.
+To use cleanup properly, follow this simple guide:
 
-also, we recommend a 16 bit sdr with a 16 bit output only- no forced 8bit mode 
+first, select the hann window and try to get about 3.2 or better bandwidth. 
+If you can't, go narrower but get more than your speech + a little noise around it if possible.
+Aim for 120% of what you actually need. For AM if you can't do this, use "full IQ" and try again.
+For FM, this isn't necessary, just get 80% of the hill.
+Use the built in notch filtering to notch out any strong carriers on SSB.
 
-# Version: 1.0 - 11 Jan 2024 
+Secondly, tune cleanup. For AM and FM and very faint signals, turn squelch off.
+Use the threshold to tune squelch. Use the comfort noise settings to tune it to just where there's very little noise.
+
+Thirdly, turn cleanup off and tune any other denoisers. Tune them to minimize any attenuation.
+Last, turn cleanup back on.
+
+
+# Version: 1.0.5 - 03 17 2024 
 
 
 The files in this zip archive add a novel denoising method like Sdrsharp's denoiser which provides spectral gating capability and defect-free denoising on shortwave, called cleanup. Cleanup is not limited to use with SDR#. https://github.com/falseywinchnet/Cleanup for more.
