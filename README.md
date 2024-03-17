@@ -17,6 +17,9 @@ Secondly, tune cleanup. For AM and FM and very faint signals, turn squelch off.
 Use the threshold to tune squelch. Use the comfort noise settings to tune it to just where there's very little noise.
 
 Thirdly, turn cleanup off and tune any other denoisers. Tune them to minimize any attenuation.
+I don't recommend using cleanup on AM except for quite strong signals, or for using it with other denoisers on AM.
+Cleanup, conversely, is the only FM denoiser you will ever neeed.
+Cleanup + IF noise reduction when correctly tuned is magic on SSB.
 Last, turn cleanup back on.
 
 
