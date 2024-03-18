@@ -4,7 +4,7 @@
 A nice SDR# plugin for Short Wave, VHF, UHF listening enthusiasts, and...more!
 
 #### NOTE
-As of 1.0.5, cleanup now performs estimation before any other denoisers, but masks after them.
+As of 1.0.5, cleanup now performs estimation before any other denoisers(unless "after" enabled) and masks after them.
 To use cleanup properly, follow this simple guide:
 
 first, select the hann window and try to get about 3.2 or better bandwidth. 
