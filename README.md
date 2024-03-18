@@ -3,7 +3,16 @@
 
 A nice SDR# plugin for Short Wave, VHF, UHF listening enthusiasts, and...more!
 
-#### NOTE
+The files in this zip archive add a novel denoising method like Sdrsharp's denoiser which provides spectral gating capability and defect-free denoising on shortwave, called cleanup. Cleanup is not limited to use with SDR#. https://github.com/falseywinchnet/Cleanup for more.
+Cleanup is also present in sdrconsole since 3.3 as NR5.
+This Plugin is compiled for SDR# 32bit, with .NET 8 (SDR# Studio release >= 1920).
+<br>Note: The plugin has not been tested and will not work on unsupported/older version of SDR# Studio and SDR#.
+
+
+#### Version: 1.0.6 - 03 17 2024
+instructions for use:
+
+
 As of 1.0.5, cleanup now performs estimation before any other denoisers(unless "after" enabled) and masks after them.
 To use cleanup properly, follow this simple guide:
 
@@ -17,20 +26,8 @@ Secondly, tune cleanup. For AM and FM and very faint signals, turn squelch off.
 Use the threshold to tune squelch. Use the comfort noise settings to tune it to just where there's very little noise.
 
 Thirdly, turn cleanup off and tune any other denoisers. Tune them to minimize any attenuation.
-I don't recommend using cleanup on AM except for quite strong signals, or for using it with other denoisers on AM.
-if you do use it on AM, try it with the checkbox "after" checked
-Cleanup, conversely, is the only FM denoiser you will ever neeed.
-Cleanup + IF noise reduction when correctly tuned is magic on SSB.
-Last, turn cleanup back on.
+the option "After" should be usually be enabled, but can be experimented with to refine results further.
 
-
-# Version: 1.0.5 - 03 17 2024 
-
-
-The files in this zip archive add a novel denoising method like Sdrsharp's denoiser which provides spectral gating capability and defect-free denoising on shortwave, called cleanup. Cleanup is not limited to use with SDR#. https://github.com/falseywinchnet/Cleanup for more.
-Cleanup is also present in sdrconsole since 3.3 as NR5.
-This Plugin is compiled for SDR# 32bit, with .NET 8 (SDR# Studio release >= 1920).
-<br>Note: The plugin has not been tested and will not work on unsupported/older version of SDR# Studio and SDR#.
 
 
 **New Setup:**
