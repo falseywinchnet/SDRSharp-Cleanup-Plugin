@@ -13,7 +13,7 @@ This Plugin is compiled for SDR# 32bit, with .NET 8 (SDR# Studio release >= 1920
 instructions for use:
 
 
-As of 1.0.5, cleanup now performs estimation before any other denoisers(unless "after" enabled) and masks after them.
+As of 1.0.5, cleanup now performs estimation before any audio denoisers(unless "after" enabled) and masks after them.
 To use cleanup properly, follow this simple guide:
 
 first, select the hann window and try to get about 3.2 or better bandwidth. 
@@ -24,6 +24,7 @@ Use the built in notch filtering to notch out any strong carriers on SSB.
 
 Secondly, tune cleanup. For AM and FM and very faint signals, turn squelch off.
 Use the threshold to tune squelch. Use the comfort noise settings to tune it to just where there's very little noise.
+squelch does not work with IF denoiser. IF denoiser disrupts the noise estimation process greatly.
 
 Thirdly, turn cleanup off and tune any other denoisers. Tune them to minimize any attenuation.
 the option "After" should be usually be enabled, but can be experimented with to refine results further.
